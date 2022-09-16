@@ -18,5 +18,7 @@ function getNasa(){
         
      
     })
-   
+    .catch(err => {
+        console.log(`error ${err}`)
+    });
 }
