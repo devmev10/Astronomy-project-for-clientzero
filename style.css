@@ -1,0 +1,74 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+ 
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  h1,h3{margin: 5px;}
+  h1,h5{
+        align-self: center;
+  }
+  h6{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+
+  input{
+    border-radius: 10%;
+    padding: 1%;
+  }  
+  .main{
+    display: flex;
+    flex-direction: column;
+       
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  .mini{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    align-items: center;
+  }
+  .output{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    border-radius: 5%;
+    border: 1px solid lightslategray;
+    padding: 5px;
+  }
+  img{
+   max-width: 100%;   
+    margin: 0;
+    padding: 2px;
+    border-radius: 5%;
+  }
+  h4{
+    margin: 0;
+    border-radius: 10%;
+    
+    padding: 1%;
+    margin-top: 1px;
+  }
+  body{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+  }
