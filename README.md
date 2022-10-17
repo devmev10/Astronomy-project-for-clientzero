@@ -8,5 +8,4 @@ Just choose a date from the input and hit the 'Magic Button' and Voilà! You get
 
 This project is using NASA api.
 
-![Astronomy project](/thumb.jpg)
 
